@@ -55,4 +55,4 @@ The following libraries were used in this project:
 * `server.js` - Entry point of the Express server.
 
 ## <a name="apk-link"></a> Website URL :
-[Deployed Application URL](#)
+[Deployed Application URL]([#](https://story-management-react.vercel.app/))
