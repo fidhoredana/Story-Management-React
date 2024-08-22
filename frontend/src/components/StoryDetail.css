@@ -1,0 +1,54 @@
+.story-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.story-detail h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.story-detail p {
+    margin-bottom: 10px;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.status-badge.publish {
+    background-color: #3498db;
+}
+
+.status-badge.draft {
+    background-color: #95a5a6;
+}
+
+.chapter-detail {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.edit-story-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}

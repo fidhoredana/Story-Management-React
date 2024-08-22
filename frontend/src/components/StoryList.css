@@ -1,0 +1,71 @@
+.story-list {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .story-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .story-actions input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .story-actions button, .add-story-btn {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .story-actions button:hover, .add-story-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .tag-badge {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  
+  .status-badge.publish {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .status-badge.draft {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
